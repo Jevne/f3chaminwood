@@ -1,0 +1,135 @@
+{
+  "$schema": "./workouts.schema.json",
+  "workouts": [
+    {
+      "ao": "BuckTown",
+      "style": "Bootcamp",
+      "location": {
+        "href": "https://www.google.com/maps/@41.4719241,-88.1833569,18z",
+        "text": "Ronald D. Lehman Community Park (W McClintock Rd Entrance)"
+      },
+      "day": "Monday",
+      "time": "5:15 AM - 6:00 AM"
+    },
+    {
+      "ao": "The Wood",
+      "style": "Bootcamp",
+      "location": {
+        "href": "https://www.google.com/maps/@41.5101015,-88.2339772,17z",
+        "text": "Cene's Four Seasons Park (W Seil Rd Entrance)"
+      },
+      "day": "Monday",
+      "time": "5:15 AM - 6:00 AM"
+    },
+    {
+      "ao": "The Island",
+      "style": "Bootcamp",
+      "location": {
+        "href": "https://www.google.com/maps/@41.3078979,-88.1512293,17.5z",
+        "text": "North Island Park (Rt 53 Entrance)"
+      },
+      "day": "Monday",
+      "time": "5:15 AM - 6:00 AM"
+    },
+    {
+      "ao": "Three Rivers",
+      "style": "Bootcamp",
+      "location": {
+        "href": "https://www.google.com/maps/@41.4381036,-88.2171373,17.25z",
+        "text": "Channahon Park District Central Park (Rt 6 Entrance)"
+      },
+      "day": "Monday Evening",
+      "time": "5:15 PM - 6:00 PM"
+    },
+    {
+      "ao": "The Wood",
+      "style": "Run Club",
+      "location": {
+        "href": "https://www.google.com/maps/@41.5101015,-88.2339772,17z",
+        "text": "Cene's Four Seasons Park (W Seil Rd Entrance)"
+      },
+      "day": "Tuesday",
+      "time": "5:15 AM - 6:00 AM"
+    },
+    {
+      "ao": "Three Rivers",
+      "style": "Bootcamp",
+      "location": {
+        "href": "https://www.google.com/maps/@41.4381036,-88.2171373,17.25z",
+        "text": "Channahon Park District Central Park (Rt 6 Entrance)"
+      },
+      "day": "Tuesday",
+      "time": "5:15 AM - 6:00 AM"
+    },
+    {
+      "ao": "The Wood",
+      "style": "Bootcamp",
+      "location": {
+        "href": "https://www.google.com/maps/@41.5101015,-88.2339772,17z",
+        "text": "Cene's Four Seasons Park (W Seil Rd Entrance)"
+      },
+      "day": "Wednesday",
+      "time": "5:15 AM - 6:00 AM"
+    },
+    {
+      "ao": "Three Rivers",
+      "style": "Bootcamp",
+      "location": {
+        "href": "https://www.google.com/maps/@41.4381036,-88.2171373,17.25z",
+        "text": "Channahon Park District Central Park (Rt 6 Entrance)"
+      },
+      "day": "Wednesday Evening",
+      "time": "5:15 PM - 6:00 PM"
+    },
+    {
+      "ao": "Q's Choice",
+      "style": "Black Diamond",
+      "location": {
+        "href": "https://www.google.com/maps/@41.4210206,-88.2277121,11.71z",
+        "text": "Black Diamond is held at the location of the Q's Chosing"
+      },
+      "day": "Wednesday",
+      "time": "5:00 AM - 6:00 AM"
+    },
+    {
+      "ao": "Three Rivers",
+      "style": "Bootcamp",
+      "location": {
+        "href": "https://www.google.com/maps/@41.4381036,-88.2171373,17.25z",
+        "text": "Channahon Park District Central Park (Rt 6 Entrance)"
+      },
+      "day": "Thursday",
+      "time": "5:15 AM - 6:00 AM"
+    },
+    {
+      "ao": "Three Rivers",
+      "style": "Bootcamp",
+      "location": {
+        "href": "https://www.google.com/maps/@41.4381036,-88.2171373,17.25z",
+        "text": "Channahon Park District Central Park (Rt 6 Entrance)"
+      },
+      "day": "Friday",
+      "time": "5:15 AM - 6:00 AM"
+    },
+    {
+      "ao": "The Wood",
+      "style": "Bootcamp",
+      "location": {
+        "href": "https://www.google.com/maps/@41.5101015,-88.2339772,17z",
+        "text": "Cene's Four Seasons Park (W Seil Rd Entrance)"
+      },
+      "day": "Saturday",
+      "time": "5:15 AM - 6:00 AM"
+    },
+    {
+      "ao": "The Wood",
+      "style": "Ruck Club",
+      "location": {
+        "href": "https://www.google.com/maps/@41.5101015,-88.2339772,17z",
+        "text": "Cene's Four Seasons Park (W Seil Rd Entrance)"
+      },
+      "day": "Saturday",
+      "time": "6:30 AM - 7:30 AM"
+    }
+  ]
+}

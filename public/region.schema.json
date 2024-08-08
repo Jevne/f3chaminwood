@@ -1,0 +1,27 @@
+{
+  "type": "object",
+  "required": ["name"],
+  "properties": {
+    "regionName": {
+      "type": "string",
+      "examples": ["Chaminwood"],
+      "maxLength": 50,
+      "minLength": 1,
+      "pattern": "[A-Z]{1,}.{1,}"
+    },
+    "cityName": {
+      "type": "string",
+      "examples": ["Channahon", "Minooka", "Shorewood"],
+      "maxLength": 50,
+      "minLength": 1,
+      "pattern": "[A-Z]{1,}.{1,}"
+    },
+    "stateName": {
+      "type": "string",
+      "examples": ["Illinois"],
+      "maxLength": 50,
+      "minLength": 1,
+      "Pattern": "[A-Z]{1,}.{1,}"
+    }
+  }
+}

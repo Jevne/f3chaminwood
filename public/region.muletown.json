@@ -1,0 +1,7 @@
+{
+  "$id": "chaminwood",
+  "$schema": "./region.schema.json",
+  "regionName": "Chaminwood",
+  "cityName": "Channahon",
+  "stateName": "Illinois"
+}

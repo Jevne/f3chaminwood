@@ -1,0 +1,85 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "required": [
+    "workouts"
+  ],
+  "properties": {
+    "workouts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "ao",
+          "style",
+          "location",
+          "day",
+          "time"
+        ],
+        "properties": {
+          "ao": {
+            "type": "string"
+          },
+          "style": {
+            "type": "string",
+            "enum": [
+              "Murph",
+              "Beatdown",
+              "Bootcamp",
+              "Run Club",
+              "Trail Run",
+              "Ruck Club",
+              "Rucks & Sandbags",
+              "Weight Lifting",
+              "Q Calls It",
+              "3rd F (Faith)",
+              "Black Diamond"
+            ]
+          },
+          "location": {
+            "type": "object",
+            "required": [
+              "href",
+              "text"
+            ],
+            "properties": {
+              "href": {
+                "type": "string",
+                "format": "uri"
+              },
+              "text": {
+                "type": "string"
+              }
+            }
+          },
+          "day": {
+            "type": "string",
+            "enum": [
+              "Monday",
+              "Monday Evening",
+              "Tuesday",
+              "Tuesday Evening",
+              "Wednesday",
+              "Wednesday Evening",
+              "Thursday",
+              "Friday",
+              "Every Third Friday",
+              "Saturday",
+              "All Saturdays Except the Last of the Month",
+              "Sunday"
+            ]
+          },
+          "time": {
+            "type": "string",
+            "enum": [
+              "5:15 AM - 6:00 AM",
+              "5:00 AM - 6:00 AM",
+              "6:30 AM - 7:30 AM",
+              "5:15 PM - 6:00 PM"
+            ]
+          }
+        }
+      }
+    }
+  }
+}
