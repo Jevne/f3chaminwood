@@ -26,6 +26,12 @@ const navItems: NavItem[] = [
   },
   { text: 'For New Guys', href: '/fng' },
   { text: 'Contact Us', href: '/contact' },
+  {
+    text: 'For the PAX',
+    subItems: [
+      { text: 'Stats', href: '/PAX/Stats' }
+    ],
+  },
 ];
 
 function Header({ href }: { href: string }) {

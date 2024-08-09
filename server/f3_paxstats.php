@@ -1,6 +1,6 @@
 <?php
 $servername = "f3stlouis.cac36jsyb5ss.us-east-2.rds.amazonaws.com";
-$username = "paxminer";
+$username = "f3cha-min-wood";
 $password = "AyeF3cha-min-wood!";
 $dbname = "f3cha-min-wood";
 // Create connection
