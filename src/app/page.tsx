@@ -18,8 +18,8 @@ import f3White from '../../public/f3-white.png';
 import f3ShovelFlag from '../../public/f3-shovel-flag.png';
 import CorePrinciple from './_components/CorePrinciple';
 
-import en from "../locales/en.json"
-import workouts from '../workouts.json'
+import en from '../locales/en.json';
+import workouts from '../workouts.json';
 
 export const metadata: Metadata = {
   title: en.region_name,
@@ -60,17 +60,22 @@ export default function Page() {
           <div>
             <h3 className="pb-6">WE ARE</h3>
             <p className="pb-6">
-              {en.pax_count}+ guys that meet up in small groups to workout in parks and
-              public spaces around {en.region_city} in {en.region_state}.
+              {en.pax_count}+ guys that meet up in small groups to workout in
+              parks and public spaces around {en.region_city} in{' '}
+              {en.region_state}.
             </p>
             <p className="pb-10 font-bold">
-              We hold {workouts.workouts.length}+ workouts each week that are designed for all fitness levels and range from 45 minutes to an hour.
+              We hold {workouts.workouts.length}+ workouts each week that are
+              designed for all fitness levels and range from 45 minutes to an
+              hour.
             </p>
           </div>
           <div>
             <h3 className="pb-6">A PART OF</h3>
             <p className="pb-6">
-              F3 Nation, a network of {en.nation_ao_count} free, peer-led workouts for men in {en.nation_region_count} regions with a mission to:
+              F3 Nation, a network of {en.nation_ao_count} free, peer-led
+              workouts for men in {en.nation_region_count} regions with a
+              mission to:
             </p>
             <p className="font-bold pb-6">
               plant, grow and serve small workout groups for men invigorating
