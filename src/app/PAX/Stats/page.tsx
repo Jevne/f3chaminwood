@@ -18,18 +18,11 @@ export default function Page() {
     <>
       <Header href={href} />
       <main>
-        <Image
-          src={f3HeroImg.src}
-          height={300}
-          width={1200}
-          alt={'PAX Statistics'}
-          className="grayscale hover:grayscale-0 w-fit pt-5 pb-10"
-          style={{ margin: '0 auto' }}
-        />
+        <h2 className="text-4xl py-5">PAX STATS</h2>
       </main>
 
-      <section className={`bg-gloom leading-tight py-16 px-4`}>
-        <center><iframe width="100%" height="850" src="https://lookerstudio.google.com/embed/reporting/634f2be2-61c7-4384-8794-a870704c5239/page/dBx8D" allowFullScreen align-center='true' sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"></iframe></center>
+      <section className={`bg-gloom leading-tight py-4 px-4`}>
+        <center><iframe width="100%" height="600" src="https://lookerstudio.google.com/embed/reporting/634f2be2-61c7-4384-8794-a870704c5239/page/dBx8D" allowFullScreen align-center='true' sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"></iframe></center>
       </section>
 
       <Footer />
