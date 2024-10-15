@@ -1,3 +1,4 @@
+import type { Metadata } from 'next';
 import Link from 'next/link';
 import Images from 'next/image';
 
@@ -18,6 +19,24 @@ import en from '../../locales/en.json'
 import workouts from '../../workouts.json';
 
 const _workouts = workouts.workouts;
+
+export const metadata: Metadata = {
+  title: 'F3 Chaminwood Locations',
+  description: 'Find a location for F3 Chaminwood',
+  robots: {
+    index: true,
+    follow: true,
+    nocache: true,
+    googleBot: {
+      index: true,
+      follow: false,
+      noimageindex: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
+};
 
 export default function Page() {
   const href = '/locations';

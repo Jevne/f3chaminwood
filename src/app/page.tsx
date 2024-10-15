@@ -24,6 +24,19 @@ import workouts from '../workouts.json';
 export const metadata: Metadata = {
   title: en.region_name,
   description: en.meta_description,
+  robots: {
+    index: true,
+    follow: true,
+    nocache: true,
+    googleBot: {
+      index: true,
+      follow: false,
+      noimageindex: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
 };
 
 export default function Page() {
